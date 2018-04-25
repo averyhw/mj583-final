@@ -1,8 +1,11 @@
 from django.contrib import admin
 from django.urls import path
-from finance.fin import views
+from . import views
 
 urlpatterns = [
-    path('test/', views.home),
+    path('', views.home),
+    path('companies', views.companies, name='companies_list'),
+    path('company/<int:pk>', views.company),
+
     path('admin/', admin.site.urls),
 ]

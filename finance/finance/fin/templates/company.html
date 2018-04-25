@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+<div class="header-image">
+  <a class="back-to-list montserrat" href="{% url 'companies_list' %}">back to list</a>
+  <div class="row">
+    <h2 id="individual-company-page-header">Real Name ({{ company }})</h2>
+  </div>
+  <div class="row">
+  <!-- <p>Details</p> -->
+    <ul class="general-data">
+        <li class="montserrat">Openning: {{ company.openning }}</li>
+        <li class="montserrat">Previous Close: {{ company.previous_close }}</li>
+        <li class="montserrat">Volume: {{ company.volume }}</li>
+        <li class="montserrat">PE Ratio: {{ company.pe_ratio }}</li>
+        <li class="montserrat">EPS: {{ company.eps }}</li>
+        <li class="montserrat">1 Year Target: {{ company.one_year }}</li>
+    </ul>
+
+  </div>
+</div>
+{% endblock %}

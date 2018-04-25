@@ -1,19 +1,51 @@
-<!-- jSchool/templates/base.html -->
+{% load static %}
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yahoo Finance Data</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <title>UNC Interactive Media</title>
-  <meta name="description" content="Learning Django">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    {% block css %}
+        {{ block.super }}
+        <link rel="stylesheet" href="{% static "fin/css/styles.css" %}">
+    {% endblock %}
 
-</head>
-
-<body>
-  <script src="js/scripts.js"></script>
-  <h1> UNC Interactive Media</h1>
-  <!-- <h2>Students and Courses</h2> -->
-  <p>There are {{ namez }} companies.</p>
-</body>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    {% block body %}
+        <div class="container">
+            {% block header %}
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-4 montserrat">Stocking Up</h1>
+                    </div>
+                </div>
+            {% endblock %}
+            {% block breadcrumb_nav %}
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        {% block breadcrumbs %}
+                        {% endblock %}
+                    </ol>
+                </nav>
+            {% endblock %}
+            {% block content %}{% endblock %}
+        </div>
+    {% endblock %}
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- <script src="https://unpkg.com/topojson@3"></script> -->
+    {% block script %}{% endblock %}
+  </body>
 </html>

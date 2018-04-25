@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>All Companies</h2>
+    <ul>
+    {% for company in company_list %}
+    {# Each "company" is a company model object. #}
+    <li><a href="{{ company.id }}">{{ company }}</a> | {{ com.callnumber}}</li>
+{% endfor %}
+  <ul>
+{% endblock %}

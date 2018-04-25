@@ -1,0 +1,51 @@
+/* STYLIZING INDIVIDUAL PAGES */
+#individual-company-page-header{
+  text-align: center;
+  margin:auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.header-image{
+  background-image: url("stock-floor.png");
+  padding: 40px;
+  background-blend-mode: lighten;
+}
+.general-data{
+  margin: auto;
+}
+.back-to-list{
+  color: black;
+}
+.back-to-list:hover{
+  text-decoration: underline;
+  color: black;
+}
+.back-to-list:visited{
+  color: black;
+}
+
+/* STYLIZING MAIN LIST PAGE */
+.main-list{
+  margin: 10px;
+}
+.company-name-link{
+  color: black;
+  text-transform: uppercase;
+}
+.company-name-link:hover{
+  text-decoration: underline;
+  color: black;
+}
+.charlotte{
+  background-image: url("charlotte2.png");
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

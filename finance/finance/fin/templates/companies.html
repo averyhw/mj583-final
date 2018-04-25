@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <h2 class="montserrat charlotte">Top Companies in North Carolina</h2>
+
+      {% for company in companies %}
+      {# Each "company" is a company model object. #}
+        <a class="montserrat company-name-link" href="company/{{  company.id  }}">  {{ company }}  </a>|
+
+{% endfor %}
+{% endblock %}
