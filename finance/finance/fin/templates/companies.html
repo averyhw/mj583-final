@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+<!-- {% load staticfiles %} -->
 {% block content %}
     <h2 class="montserrat charlotte">Top Companies in North Carolina</h2>
 
@@ -7,5 +8,34 @@
       {# Each "company" is a company model object. #}
         <a class="montserrat company-name-link" href="company/{{  company.id  }}">  {{ company }}  </a>|
 
-{% endfor %}
+      {% endfor %}
+
+      <h3>My Google Maps Demo</h3>
+      <div id="map"></div>
+
+
+    <script src="js/creds.js"></script>
+    <script>
+      function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3' +
+            '&key=' + myMapsKey +'&callback=initMap';
+        document.body.appendChild(script);
+      }
+      window.onload = loadScript;
+    </script>
+    <script>
+  //   $(function() {
+  //     {% for company in companies %}
+  //         var lat {{ company.id }} = new lat({{ company.lat }});
+  //         $('#matchCountdown_{{ match.id }}').countdown({until: match_date_{{ match.id }});
+  //     {% endfor %}
+  //     console.log(lat)
+  // });
+
+
+
+
+    </script>
 {% endblock %}

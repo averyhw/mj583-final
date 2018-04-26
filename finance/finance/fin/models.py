@@ -9,6 +9,11 @@ class Company(models.Model):
     pe_ratio = models.DecimalField(unique=False, max_digits=6, decimal_places=2, default=Decimal(0.00))
     eps = models.DecimalField(unique=False, max_digits=6, decimal_places=2, default=Decimal(0.00))
     one_year = models.DecimalField(unique=False, max_digits=6, decimal_places=2, default=Decimal(0.00))
+    full_name = models.CharField(max_length=50)
+    location = models.CharField(max_length=50)
+    website = models.CharField(max_length=50)
+    lat = models.DecimalField(unique=False, max_digits=6, decimal_places=2, default=Decimal(0.00))
+    long = models.DecimalField(unique=False, max_digits=6, decimal_places=2, default=Decimal(0.00))
 
     def __str__(self):
             return U'%s' %(self.name)

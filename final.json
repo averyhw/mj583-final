@@ -18,7 +18,12 @@
         "Ex-Dividend Date": "2018-03-09",
         "1y Target Est": 15.0,
         "ticker": "cato",
-        "url": "http://finance.yahoo.com/quote/cato?p=cato"
+        "url": "http://finance.yahoo.com/quote/cato?p=cato",
+        "name": "The Cato Corporation",
+        "location": "Charlotte, NC",
+        "website": "https://www.catofashions.com/",
+        "lat": 35.127344,
+        "long": -80.880559
     },
     {
         "Previous Close": "76.31",
@@ -38,7 +43,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.63,
         "ticker": "vfc",
-        "url": "http://finance.yahoo.com/quote/vfc?p=vfc"
+        "url": "http://finance.yahoo.com/quote/vfc?p=vfc",
+        "name": "V.F. Corporation",
+        "location": "Greensboro, NC",
+        "website": "https://www.vfc.com/",
+        "lat": 36.122155,
+        "long": -79.798901
     },
     {
         "Previous Close": "19.20",
@@ -58,7 +68,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 21.83,
         "ticker": "sah",
-        "url": "http://finance.yahoo.com/quote/sah?p=sah"
+        "url": "http://finance.yahoo.com/quote/sah?p=sah",
+        "name": "Sonic Automotive, Inc.",
+        "location": "Greensboro, NC",
+        "website": "http://www.sonicautomotive.com",
+        "lat": 35.176705,
+        "long": -80.796985
     },
     {
         "Previous Close": "69.72",
@@ -78,7 +93,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.78,
         "ticker": "qrvo",
-        "url": "http://finance.yahoo.com/quote/qrvo?p=qrvo"
+        "url": "http://finance.yahoo.com/quote/qrvo?p=qrvo",
+        "name": "Qorvo, Inc.",
+        "location": "Greensboro, NC",
+        "website": "http://www.qorvo.com",
+        "lat": 36.075685,
+        "long": -79.964890
     },
     {
         "Previous Close": "2.10",
@@ -98,7 +118,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 4.58,
         "ticker": "bdsi",
-        "url": "http://finance.yahoo.com/quote/bdsi?p=bdsi"
+        "url": "http://finance.yahoo.com/quote/bdsi?p=bdsi",
+        "name": "BioDelivery Sciences International, Inc.",
+        "location": "Raleigh, NC",
+        "website": "http://www.bdsi.com",
+        "lat": 35.834444,
+        "long": -78.689644
     },
     {
         "Previous Close": "12.20",
@@ -118,7 +143,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 17.9,
         "ticker": "prmw",
-        "url": "http://finance.yahoo.com/quote/prmw?p=prmw"
+        "url": "http://finance.yahoo.com/quote/prmw?p=prmw",
+        "name": "Primo Water Corporation",
+        "location": "Winston-Salem, NC",
+        "website": "http://primowater.com",
+        "lat": 36.094960,
+        "long": -80.246159
     },
     {
         "Previous Close": "29.63",
@@ -138,7 +168,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 37.08,
         "ticker": "jeld",
-        "url": "http://finance.yahoo.com/quote/jeld?p=jeld"
+        "url": "http://finance.yahoo.com/quote/jeld?p=jeld",
+        "name": "JELD-WEN Holding, Inc.",
+        "location": "Charlotte, NC",
+        "website": "http://www.jeld-wen.com",
+        "lat": 35.137785,
+        "long": -80.928683
     },
     {
         "Previous Close": "17.24",
@@ -158,7 +193,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 19.5,
         "ticker": "trk",
-        "url": "http://finance.yahoo.com/quote/trk?p=trk"
+        "url": "http://finance.yahoo.com/quote/trk?p=trk",
+        "name": "Speedway Motorsports, Inc.",
+        "location": "Concord, NC",
+        "website": "http://www.speedwaymotorsports.com",
+        "lat": 35.361986,
+        "long": -80.685832
     },
     {
         "Previous Close": "94.85",
@@ -178,7 +218,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 116.0,
         "ticker": "iqv",
-        "url": "http://finance.yahoo.com/quote/iqv?p=iqv"
+        "url": "http://finance.yahoo.com/quote/iqv?p=iqv",
+        "name": "IQVIA Holdings Inc.",
+        "location": "Durham, NC",
+        "website": "http://www.iqvia.com",
+        "lat": 35.880791,
+        "long": -78.840661
     },
     {
         "Previous Close": "202.22",
@@ -198,7 +243,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 249.08,
         "ticker": "mlm",
-        "url": "http://finance.yahoo.com/quote/mlm?p=mlm"
+        "url": "http://finance.yahoo.com/quote/mlm?p=mlm",
+        "name": "Martin Marietta Materials, Inc.",
+        "location": "Raleigh, NC",
+        "website": "http://www.martinmarietta.com",
+        "lat": 35.820161,
+        "long": -78.690129
     },
     {
         "Previous Close": "37.60",
@@ -218,7 +268,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 47.0,
         "ticker": "ufi",
-        "url": "http://finance.yahoo.com/quote/ufi?p=ufi"
+        "url": "http://finance.yahoo.com/quote/ufi?p=ufi",
+        "name": "Unifi, Inc.",
+        "location": "Greensboro, NC",
+        "website": "http://www.unifi.com",
+        "lat": 36.087341,
+        "long": -79.922748
     },
     {
         "Previous Close": "140.84",
@@ -238,7 +293,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 145.67,
         "ticker": "odfl",
-        "url": "http://finance.yahoo.com/quote/odfl?p=odfl"
+        "url": "http://finance.yahoo.com/quote/odfl?p=odfl",
+        "name": "Old Dominion Freight Line, Inc.",
+        "location": "Thomasville, NC",
+        "website": "http://www.odfl.com",
+        "lat": 35.908980,
+        "long": -80.058731
     },
     {
         "Previous Close": "174.75",
@@ -258,7 +318,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 144.0,
         "ticker": "coke",
-        "url": "http://finance.yahoo.com/quote/coke?p=coke"
+        "url": "http://finance.yahoo.com/quote/coke?p=coke",
+        "name": "Coca-Cola Bottling Co. Consolidated",
+        "location": "Charlotte, NC",
+        "website": "http://www.cokeconsolidated.com",
+        "lat": 35.158169,
+        "long": -80.834924
     },
     {
         "Previous Close": "60.69",
@@ -278,7 +343,12 @@
         "Ex-Dividend Date": "2018-03-28",
         "1y Target Est": 75.36,
         "ticker": "nue",
-        "url": "http://finance.yahoo.com/quote/nue?p=nue"
+        "url": "http://finance.yahoo.com/quote/nue?p=nue",
+        "name": "Nucor Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.nucor.com",
+        "lat": 35.158720,
+        "long": -80.834881
     },
     {
         "Previous Close": "4.60",
@@ -298,27 +368,37 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 7.83,
         "ticker": "bcrx",
-        "url": "http://finance.yahoo.com/quote/bcrx?p=bcrx"
+        "url": "http://finance.yahoo.com/quote/bcrx?p=bcrx",
+        "name": "BioCryst Pharmaceuticals, Inc.",
+        "location": "Durham, NC",
+        "website": "http://www.biocryst.com",
+        "lat": 35.875062,
+        "long": -78.840670
     },
     {
-        "Previous Close": "255.10",
-        "Open": "255.70",
-        "Bid": "256.40 x 0",
-        "Ask": "256.60 x 0",
-        "Day's Range": "254.60 - 258.30",
-        "52 Week Range": "250.70 - 309.40",
-        "Volume": "475,442",
-        "Avg. Volume": "1,125,810",
-        "Market Cap": "73.726B",
-        "Beta": "1.10",
-        "PE Ratio (TTM)": "12.88",
-        "EPS (TTM)": 19.88,
-        "Earnings Date": "",
-        "Forward Dividend & Yield": "4.15 (1.57%)",
-        "Ex-Dividend Date": "2018-04-06",
-        "1y Target Est": 289.79,
-        "ticker": "ELUX-B.ST",
-        "url": "http://finance.yahoo.com/quote/ELUX-B.ST?p=ELUX-B.ST"
+        "Previous Close": "1.80",
+        "Open": "1.80",
+        "Bid": "1.70 x 33900",
+        "Ask": "1.71 x 3300",
+        "Day's Range": "1.70 - 1.77",
+        "52 Week Range": "0.450 - 5.000",
+        "Volume": "1,165,841",
+        "Avg. Volume": "2,281,550",
+        "Market Cap": "343.354M",
+        "Beta": "2.25",
+        "PE Ratio (TTM)": "0.00",
+        "EPS (TTM)": -0.973,
+        "Earnings Date": "Nov 7, 2017 - Nov 13, 2017",
+        "Forward Dividend & Yield": "0.00 0.00",
+        "Ex-Dividend Date": "",
+        "1y Target Est": 4.17,
+        "ticker": "trxc",
+        "url": "http://finance.yahoo.com/quote/trxc?p=trxc",
+        "name": "TransEnterix, Inc.",
+        "location": "Morrisville, NC",
+        "website": "http://www.transenterix.com",
+        "lat": 35.868457,
+        "long": -78.860792
     },
     {
         "Previous Close": "43.35",
@@ -338,7 +418,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 51.4,
         "ticker": "hiw",
-        "url": "http://finance.yahoo.com/quote/hiw?p=hiw"
+        "url": "http://finance.yahoo.com/quote/hiw?p=hiw",
+        "name": "Highwoods Properties, Inc.",
+        "location": "Raleigh, NC",
+        "website": "http://www.highwoods.com",
+        "lat": 35.818927,
+        "long": -78.606925
     },
     {
         "Previous Close": "6.45",
@@ -358,7 +443,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "xrm",
-        "url": "http://finance.yahoo.com/quote/xrm?p=xrm"
+        "url": "http://finance.yahoo.com/quote/xrm?p=xrm",
+        "name": "Xerium Technologies, Inc.",
+        "location": "Youngsville, NC",
+        "website": "http://www.xerium.com",
+        "lat": 36.016138,
+        "long": -78.516873
     },
     {
         "Previous Close": "35.62",
@@ -378,7 +468,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 41.5,
         "ticker": "fbnc",
-        "url": "http://finance.yahoo.com/quote/fbnc?p=fbnc"
+        "url": "http://finance.yahoo.com/quote/fbnc?p=fbnc",
+        "name": "First Bancorp",
+        "location": "Southern Pines, NC",
+        "website": "http://www.LocalFirstBank.com",
+        "lat": 35.172442,
+        "long": -79.395168
     },
     {
         "Previous Close": "26.99",
@@ -398,7 +493,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 34.0,
         "ticker": "iiin",
-        "url": "http://finance.yahoo.com/quote/iiin?p=iiin"
+        "url": "http://finance.yahoo.com/quote/iiin?p=iiin",
+        "name": "Insteel Industries, Inc.",
+        "location": "Mount Airy, NC",
+        "website": "http://www.insteel.com",
+        "lat": 36.528539,
+        "long": -80.635570
     },
     {
         "Previous Close": "51.12",
@@ -418,7 +518,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 57.67,
         "ticker": "bbt",
-        "url": "http://finance.yahoo.com/quote/bbt?p=bbt"
+        "url": "http://finance.yahoo.com/quote/bbt?p=bbt",
+        "name": "BB&T Corporation",
+        "location": "Winston-Salem, NC",
+        "website": "http://www.bbt.com",
+        "lat": 36.095677,
+        "long": -80.245157
     },
     {
         "Previous Close": "38.93",
@@ -438,7 +543,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 42.5,
         "ticker": "comm",
-        "url": "http://finance.yahoo.com/quote/comm?p=comm"
+        "url": "http://finance.yahoo.com/quote/comm?p=comm",
+        "name": "CommScope Holding Company, Inc.",
+        "location": "Hickory, NC",
+        "website": "http://www.commscope.com",
+        "lat": 35.715184,
+        "long": -81.317506
     },
     {
         "Previous Close": "42.37",
@@ -458,7 +568,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 49.38,
         "ticker": "see",
-        "url": "http://finance.yahoo.com/quote/see?p=see"
+        "url": "http://finance.yahoo.com/quote/see?p=see",
+        "name": "Sealed Air Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.sealedair.com",
+        "lat": 35.198570,
+        "long": -80.918613
     },
     {
         "Previous Close": "134.24",
@@ -478,7 +593,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 150.0,
         "ticker": "cw",
-        "url": "http://finance.yahoo.com/quote/cw?p=cw"
+        "url": "http://finance.yahoo.com/quote/cw?p=cw",
+        "name": "Curtiss-Wright Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.curtisswright.com",
+        "lat": 35.059953,
+        "long": -80.854990
     },
     {
         "Previous Close": "14.07",
@@ -498,7 +618,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 22.0,
         "ticker": "fenc",
-        "url": "http://finance.yahoo.com/quote/fenc?p=fenc"
+        "url": "http://finance.yahoo.com/quote/fenc?p=fenc",
+        "name": "Fennec Pharmaceuticals Inc.",
+        "location": "Research Triangle Park, NC",
+        "website": "http://www.fennecpharma.com",
+        "lat": 35.913860,
+        "long": -78.879617
     },
     {
         "Previous Close": "35.37",
@@ -518,7 +643,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 43.0,
         "ticker": "gthx",
-        "url": "http://finance.yahoo.com/quote/gthx?p=gthx"
+        "url": "http://finance.yahoo.com/quote/gthx?p=gthx",
+        "name": "G1 Therapeutics, Inc.",
+        "location": "Research Triangle Park, NC",
+        "website": "http://www.g1therapeutics.com",
+        "lat": 35.907023,
+        "long": -78.876869
     },
     {
         "Previous Close": "40.42",
@@ -538,7 +668,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 36.22,
         "ticker": "cree",
-        "url": "http://finance.yahoo.com/quote/cree?p=cree"
+        "url": "http://finance.yahoo.com/quote/cree?p=cree",
+        "name": "Cree, Inc.",
+        "location": "Durham, NC",
+        "website": "http://www.cree.com",
+        "lat": 35.899478,
+        "long": -78.842384
     },
     {
         "Previous Close": "19.74",
@@ -558,7 +693,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 22.04,
         "ticker": "stay",
-        "url": "http://finance.yahoo.com/quote/stay?p=stay"
+        "url": "http://finance.yahoo.com/quote/stay?p=stay",
+        "name": "Extended Stay America, Inc. Paired Shares",
+        "location": "Charlotte, NC",
+        "website": "http://www.extendedstayamerica.com",
+        "lat": 35.058550,
+        "long": -80.838730
     },
     {
         "Previous Close": "27.20",
@@ -578,7 +718,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 6.0,
         "ticker": "aoi",
-        "url": "http://finance.yahoo.com/quote/aoi?p=aoi"
+        "url": "http://finance.yahoo.com/quote/aoi?p=aoi",
+        "name": "Alliance One International, Inc.",
+        "location": "Morrisville, NC",
+        "website": "http://www.aointl.com",
+        "lat": 35.856392,
+        "long": -78.812381
     },
     {
         "Previous Close": "21.65",
@@ -598,7 +743,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 20.79,
         "ticker": "pgem",
-        "url": "http://finance.yahoo.com/quote/pgem?p=pgem"
+        "url": "http://finance.yahoo.com/quote/pgem?p=pgem",
+        "name": "Ply Gem Holdings, Inc",
+        "location": "Cary, NC",
+        "website": "http://www.plygem.com",
+        "lat": 35.813317,
+        "long": -78.808732
     },
     {
         "Previous Close": "31.26",
@@ -618,7 +768,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 37.28,
         "ticker": "pinc",
-        "url": "http://finance.yahoo.com/quote/pinc?p=pinc"
+        "url": "http://finance.yahoo.com/quote/pinc?p=pinc",
+        "name": "Premier, Inc.",
+        "location": "Charlotte, NC",
+        "website": "http://www.premierinc.com",
+        "lat": 35.056750,
+        "long": -80.842172
     },
     {
         "Previous Close": "13.24",
@@ -638,7 +793,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "slct",
-        "url": "http://finance.yahoo.com/quote/slct?p=slct"
+        "url": "http://finance.yahoo.com/quote/slct?p=slct",
+        "name": "Select Bancorp, Inc.",
+        "location": "Dunn, NC",
+        "website": "http://www.selectbank.com",
+        "lat": 35.311649,
+        "long": -78.617042
     },
     {
         "Previous Close": "78.16",
@@ -658,7 +818,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.64,
         "ticker": "duk",
-        "url": "http://finance.yahoo.com/quote/duk?p=duk"
+        "url": "http://finance.yahoo.com/quote/duk?p=duk",
+        "name": "Duke Energy Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.duke-energy.com",
+        "lat": 35.224284,
+        "long": -80.848763
     },
     {
         "Previous Close": "31.66",
@@ -678,7 +843,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 36.0,
         "ticker": "spxc",
-        "url": "http://finance.yahoo.com/quote/spxc?p=spxc"
+        "url": "http://finance.yahoo.com/quote/spxc?p=spxc",
+        "name": "SPX Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.spx.com",
+        "lat": 35.060794,
+        "long": -80.845823
     },
     {
         "Previous Close": "3.81",
@@ -698,7 +868,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 3.5,
         "ticker": "bw",
-        "url": "http://finance.yahoo.com/quote/bw?p=bw"
+        "url": "http://finance.yahoo.com/quote/bw?p=bw",
+        "name": "Babcock & Wilcox Enterprises, Inc.",
+        "location": "Charlotte, NC",
+        "website": "http://www.babcock.com",
+        "lat": 35.055831,
+        "long": -80.842737
     },
     {
         "Previous Close": "149.17",
@@ -718,7 +893,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 166.73,
         "ticker": "rht",
-        "url": "http://finance.yahoo.com/quote/rht?p=rht"
+        "url": "http://finance.yahoo.com/quote/rht?p=rht",
+        "name": "Red Hat, Inc.",
+        "location": "Raleigh, NC",
+        "website": "http://www.redhat.com",
+        "lat": 35.775180,
+        "long": -78.637626
     },
     {
         "Previous Close": "22.78",
@@ -738,7 +918,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 24.31,
         "ticker": "skt",
-        "url": "http://finance.yahoo.com/quote/skt?p=skt"
+        "url": "http://finance.yahoo.com/quote/skt?p=skt",
+        "name": "Tanger Factory Outlet Centers, Inc.",
+        "location": "Greensboro, NC",
+        "website": "http://www.tangeroutlet.com",
+        "lat": 36.088274,
+        "long": -79.834708
     },
     {
         "Previous Close": "81.38",
@@ -758,7 +943,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 99.82,
         "ticker": "prah",
-        "url": "http://finance.yahoo.com/quote/prah?p=prah"
+        "url": "http://finance.yahoo.com/quote/prah?p=prah",
+        "name": "PRA Health Sciences, Inc.",
+        "location": "Raleigh, NC",
+        "website": "http://www.prahs.com",
+        "lat": 35.835274,
+        "long": -78.688336
     },
     {
         "Previous Close": "28.50",
@@ -778,7 +968,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 31.5,
         "ticker": "lob",
-        "url": "http://finance.yahoo.com/quote/lob?p=lob"
+        "url": "http://finance.yahoo.com/quote/lob?p=lob",
+        "name": "Live Oak Bancshares, Inc.",
+        "location": "Wilmington, NC",
+        "website": "http://www.liveoakbank.com",
+        "lat": 34.201040,
+        "long": -77.905450
     },
     {
         "Previous Close": "11.60",
@@ -798,7 +993,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 11.8,
         "ticker": "tcap",
-        "url": "http://finance.yahoo.com/quote/tcap?p=tcap"
+        "url": "http://finance.yahoo.com/quote/tcap?p=tcap",
+        "name": "Triangle Capital Corporation",
+        "location": "Raleigh, NC",
+        "website": "http://www.tcap.com",
+        "lat": 35.830959,
+        "long": -78.666716
     },
     {
         "Previous Close": "30.60",
@@ -818,7 +1018,12 @@
         "Ex-Dividend Date": "2018-03-29",
         "1y Target Est": 35.0,
         "ticker": "culp",
-        "url": "http://finance.yahoo.com/quote/culp?p=culp"
+        "url": "http://finance.yahoo.com/quote/culp?p=culp",
+        "name": "Culp, Inc.",
+        "location": "High Point, NC",
+        "website": "http://www.culp.com",
+        "lat": 36.007651,
+        "long": -79.988809
     },
     {
         "Previous Close": "3.42",
@@ -838,7 +1043,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 19.75,
         "ticker": "vtvt",
-        "url": "http://finance.yahoo.com/quote/vtvt?p=vtvt"
+        "url": "http://finance.yahoo.com/quote/vtvt?p=vtvt",
+        "name": "vTv Therapeutics Inc.",
+        "location": "High Point, NC",
+        "website": "http://www.vtvtherapeutics.com",
+        "lat": 36.048545,
+        "long": -79.953500
     },
     {
         "Previous Close": "197.400",
@@ -858,7 +1068,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 39.0,
         "ticker": "itic",
-        "url": "http://finance.yahoo.com/quote/itic?p=itic"
+        "url": "http://finance.yahoo.com/quote/itic?p=itic",
+        "name": "Investors Title Company",
+        "location": "Chapel Hill, NC",
+        "website": "http://www.invtitle.com",
+        "lat": 35.913689,
+        "long": -79.056308
     },
     {
         "Previous Close": "29.63",
@@ -878,7 +1093,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 34.52,
         "ticker": "bac",
-        "url": "http://finance.yahoo.com/quote/bac?p=bac"
+        "url": "http://finance.yahoo.com/quote/bac?p=bac",
+        "name": "Bank of America Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.bankofamerica.com",
+        "lat": 35.227753,
+        "long": -80.842882
     },
     {
         "Previous Close": "76.71",
@@ -898,7 +1118,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 102.75,
         "ticker": "npo",
-        "url": "http://finance.yahoo.com/quote/npo?p=npo"
+        "url": "http://finance.yahoo.com/quote/npo?p=npo",
+        "name": "EnPro Industries, Inc.",
+        "location": "Charlotte, NC",
+        "website": "http://www.enproindustries.com",
+        "lat": 35.153307,
+        "long": -80.838211
     },
     {
         "Previous Close": "88.75",
@@ -918,7 +1143,12 @@
         "Ex-Dividend Date": "2018-04-24",
         "1y Target Est": 106.1,
         "ticker": "low",
-        "url": "http://finance.yahoo.com/quote/low?p=low"
+        "url": "http://finance.yahoo.com/quote/low?p=low",
+        "name": "Lowe's Companies, Inc.",
+        "location": "Mooresville, NC",
+        "website": "http://www.lowes.com",
+        "lat": 35.541800,
+        "long": -80.853851
     },
     {
         "Previous Close": "47.60",
@@ -938,7 +1168,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 50.56,
         "ticker": "flow",
-        "url": "http://finance.yahoo.com/quote/flow?p=flow"
+        "url": "http://finance.yahoo.com/quote/flow?p=flow",
+        "name": "SPX FLOW, Inc.",
+        "location": "Charlotte, NC",
+        "website": "http://www.spxflow.com",
+        "lat": 35.060794,
+        "long": -80.845823
     },
     {
         "Previous Close": "91.80",
@@ -958,7 +1193,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 132.9,
         "ticker": "alb",
-        "url": "http://finance.yahoo.com/quote/alb?p=alb"
+        "url": "http://finance.yahoo.com/quote/alb?p=alb",
+        "name": "Albemarle Corporation",
+        "location": "Charlotte, NC",
+        "website": "http://www.albemarle.com",
+        "lat": 35.154133,
+        "long": -80.837865
     },
     {
         "Previous Close": "30.40",
@@ -978,7 +1218,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "pebk",
-        "url": "http://finance.yahoo.com/quote/pebk?p=pebk"
+        "url": "http://finance.yahoo.com/quote/pebk?p=pebk",
+        "name": "Peoples Bancorp of North Carolina, Inc.",
+        "location": "Newton, NC",
+        "website": "http://www.peoplesbanknc.com",
+        "lat": 35.660537,
+        "long": -81.229351
     },
     {
         "Previous Close": "161.65",
@@ -998,6 +1243,11 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 193.5,
         "ticker": "lh",
-        "url": "http://finance.yahoo.com/quote/lh?p=lh"
+        "url": "http://finance.yahoo.com/quote/lh?p=lh",
+        "name": "Laboratory Corporation of America Holdings",
+        "location": "Burlington, NC",
+        "website": "http://www.labcorp.com",
+        "lat": 36.093172,
+        "long": -79.437380
     }
 ]

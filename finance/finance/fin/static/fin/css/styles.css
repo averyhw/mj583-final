@@ -6,6 +6,11 @@
   font-weight: bold;
   margin-bottom: 20px;
   text-transform: uppercase;
+  color: black;
+}
+#individual-company-page-header:hover{
+  text-decoration: underline;
+  color: black;
 }
 .montserrat{
   font-family: 'Montserrat', sans-serif;
@@ -16,7 +21,7 @@
   background-blend-mode: lighten;
 }
 .general-data{
-  margin: auto;
+  /* margin: auto; */
 }
 .back-to-list{
   color: black;
@@ -49,3 +54,10 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/* MAP */
+#map {
+       width: 100%;
+       height: 400px;
+       background-color: grey;
+     }

@@ -93,11 +93,14 @@ class Command(BaseCommand):
 
             one_year = row ['1y Target Est']
             # one_year = one_year.replace('"', '').replace(',', '').replace("'", "")
-
-
+            full_name = row ['name']
+            location = row ['location']
+            website = row ['website']
+            lat = row ['lat']
+            long = row ['long']
             # If we don't have this data add the row to the skipped list and
             # continue to the next item in the for loop
-            if not name or not openning or not previous_close or not pe_ratio or not volume or not eps or not one_year:
+            if not name or not openning or not previous_close or not pe_ratio or not volume or not eps or not one_year or not full_name or not location or not website or not lat or not long:
                 skipped.append(row)
                 continue
 
@@ -116,12 +119,15 @@ class Command(BaseCommand):
                 name= row ['ticker'],
                 openning= row ['Open'].replace('"', '').replace(',', '').replace("'", ""),
                 previous_close= row ['Previous Close'].replace('"', '').replace(',', '').replace("'", ""),
-                # volume = row['Volume'],
                 volume = row['Volume'].replace('"', '').replace(',', '').replace("'", ""),
                 pe_ratio = row['PE Ratio (TTM)'].replace('"', '').replace(',', '').replace("'", ""),
                 eps = row['EPS (TTM)'],
                 one_year = row ['1y Target Est'],
-            # datetime.datetime.fromtimestamp(row['date_of_birth'] / 1000),
+                full_name = row ['name'],
+                location = row ['location'],
+                website = row ['website'],
+                lat = row ['lat'],
+                long = row ['long'],
         )
 
             # Now that we have created our dependencies we can create a winner
