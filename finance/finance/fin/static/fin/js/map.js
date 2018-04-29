@@ -4,9 +4,16 @@ function initMap() {
           zoom: 7,
           center: uluru
         });
+        // var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        // var icons = {
+        //   parking: {
+        //     icon: iconBase + 'building-icon.png'
+        //   }
+        // };
         var marker = new google.maps.Marker({
           position: uluru,
-          map: map
+          map: map,
+
         });
         var cato = {lat:35.127344, lng:-80.880559};
         var vfc = {lat:36.122155, lng:-79.798901};
@@ -71,6 +78,7 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: cato,
           map: map
+          // icon: iconBase + 'parking'
         });
         marker.addListener('click', function(){
           popUp.open(map, marker);
@@ -83,6 +91,7 @@ function initMap() {
         var marker2 = new google.maps.Marker({
           position: vfc,
           map: map
+
         });
         marker2.addListener('click', function(){
           popUp2.open(map, marker2);

@@ -8,7 +8,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MAPS -->
-    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+    <!-- <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css"> -->
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=News+Cycle:700" rel="stylesheet">
@@ -26,21 +26,23 @@
   </head>
   <body>
     {% block body %}
-        <div class="container">
+        <div class="container-fluid">
             {% block header %}
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 header-bar">
                         <h1 class="display-4 montserrat">Stocking Up</h1>
                     </div>
                 </div>
             {% endblock %}
+          </div>
+          <div class="container">
             {% block breadcrumb_nav %}
-                <nav aria-label="breadcrumb">
+                <!-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         {% block breadcrumbs %}
                         {% endblock %}
                     </ol>
-                </nav>
+                </nav> -->
             {% endblock %}
             {% block content %}{% endblock %}
         </div>

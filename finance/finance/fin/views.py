@@ -3,6 +3,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from finance.fin.models import Company
 import json
 from django.http import JsonResponse
+from . import models
 
 def home(request):
     context = {
@@ -30,9 +31,19 @@ def companies(request):
     }
     return render(request, "companies.html", context)
 
-def api(request, pk):
-    selected_company = get_object_or_404(Company, id=pk)
+def api(request):
+    # selected_company = get_object_or_404(Company, id=pk)
+    # data = {
+    #     "company": selected_company.openning
+    # }
+    # return JsonResponse({"company": selected_company.to_json()})
+
+    company = request.GET.get('company')
+
+    companies = models.Company.objects.all()
+
     data = {
-        "company": selected_company.openning
+        "companies": [w.to_json() for w in companies],
     }
-    return JsonResponse({"company": selected_company.to_json()})
+
+    return JsonResponse(data)

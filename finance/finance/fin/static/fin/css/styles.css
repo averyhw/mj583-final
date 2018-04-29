@@ -61,3 +61,11 @@
        height: 400px;
        background-color: grey;
      }
+
+/* HOME PAGE */
+.header-bar{
+  background-color: #ededed;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}

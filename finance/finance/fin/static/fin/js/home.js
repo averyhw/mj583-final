@@ -3,19 +3,20 @@ window.Company = {
     params: {}
 };
 
-var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
-var pathArray = window.location.pathname.split( '/' );
-var theRecord = pathArray[2];
+// var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+// var pathArray = window.location.pathname.split( '/' );
+// var theRecord = pathArray[2];
 // console.log(theRecord);
 // fetchData
 function fetchData() {
 
-    $.get("/api/" + theRecord)
+    // $.get("/api/" + theRecord)
+    $.get("/api/")
 
         .done(function(config) {
             // console.log(data);
 
-            $('#fin-bar').text(JSON.stringify(data, null, '  '));
+            $('#fin-bar').text(JSON.stringify(config, null, '  '));
             // Add data to global container
             window.Company.data = config;
             // Re-render the bar chart
