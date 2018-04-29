@@ -6,6 +6,5 @@ urlpatterns = [
     path('', views.companies, name = 'companies_list'),
     # path('companies', views.companies, name='companies_list'),
     path('company/<int:pk>', views.company),
-
-    path('admin/', admin.site.urls),
+    path('api/<int:pk>', views.api)
 ]

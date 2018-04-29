@@ -19,7 +19,7 @@ function initMap() {
         var iqv = {lat:35.880791, lng:-78.840661};
         var mlm = {lat:35.820161, lng:-78.690129};
 
-        var ufo = {lat:36.087341, lng:-79.922748};
+        var ufi = {lat:36.087341, lng:-79.922748};
         var odfl = {lat:35.908980, lng:-80.058731};
         var coke = {lat:35.158169, lng:-80.834924};
         var nue = {lat:35.158720, lng:-80.834881};
@@ -64,7 +64,7 @@ function initMap() {
         var pebk = {lat:35.660537, lng: -81.229351};
         var lh = {lat:36.093172, lng: -79.437380};
 
-        var label = "";
+        var label = "<a href='https://www.catofashions.com/' target='_blank'><p class='montserrat'>The Cato Corporation</p></a>";
         var popUp = new google.maps.InfoWindow({
           content: label
         });
@@ -76,7 +76,7 @@ function initMap() {
           popUp.open(map, marker);
         });
 
-        var label2 = "";
+        var label2 = "<a href='https://www.vfc.com/' target='_blank'><p class='montserrat'>V.F. Corporation</p></a>";
         var popUp2 = new google.maps.InfoWindow({
           content: label2
         });
@@ -88,7 +88,7 @@ function initMap() {
           popUp2.open(map, marker2);
         });
 
-        var label3 = "";
+        var label3 = "<a href='http://www.sonicautomotive.com' target='_blank'><p class='montserrat'>Sonic Automotive, Inc.</p></a>";
         var popUp3 = new google.maps.InfoWindow({
           content: label3
         });
@@ -100,7 +100,7 @@ function initMap() {
           popUp3.open(map, marker3);
         });
 
-        var label4 = "";
+        var label4 = "<a href='http://www.qorvo.com' target='_blank'><p class='montserrat'>Qorvo, Inc.</p></a>";
         var popUp4 = new google.maps.InfoWindow({
           content: label4
         });
@@ -112,7 +112,7 @@ function initMap() {
           popUp4.open(map, marker4);
         });
 
-        var label5 = "";
+        var label5 = "<a href='http://www.bdsi.com' target='_blank'><p class='montserrat'>BioDelivery Sciences International, Inc.</p></a>";
         var popUp5 = new google.maps.InfoWindow({
           content: label5
         });
@@ -124,7 +124,7 @@ function initMap() {
           popUp5.open(map, marker5);
         });
 
-        var label6 = "";
+        var label6 = "<a href='http://primowater.com' target='_blank'><p class='montserrat'>Primo Water Corporation</p></a>";
         var popUp6 = new google.maps.InfoWindow({
           content: label6
         });
@@ -136,7 +136,7 @@ function initMap() {
           popUp6.open(map, marker6);
         });
 
-        var label7 = "";
+        var label7 = "<a href='http://www.jeld-wen.com' target='_blank'><p class='montserrat'>JELD-WEN Holding, Inc</p></a>";
         var popUp7 = new google.maps.InfoWindow({
           content: label7
         });
@@ -148,7 +148,7 @@ function initMap() {
           popUp7.open(map, marker7);
         });
 
-        var label8 = "";
+        var label8 = "<a href='http://www.speedwaymotorsports.com' target='_blank'><p class='montserrat'>Speedway Motorsports, Inc.</p></a>";
         var popUp8 = new google.maps.InfoWindow({
           content: label8
         });
@@ -160,7 +160,7 @@ function initMap() {
           popUp8.open(map, marker8);
         });
 
-        var label9 = "";
+        var label9 = "<a href='http://www.iqvia.com' target='_blank'><p class='montserrat'>IQVIA Holdings Inc.</p></a>";
         var popUp9 = new google.maps.InfoWindow({
           content: label9
         });
@@ -172,7 +172,7 @@ function initMap() {
           popUp9.open(map, marker9);
         });
 
-        var label10 = "";
+        var label10 = "<a href='http://www.martinmarietta.com' target='_blank'><p class='montserrat'>Martin Marietta Materials, Inc.</p></a>";
         var popUp10 = new google.maps.InfoWindow({
           content: label10
         });
@@ -184,19 +184,19 @@ function initMap() {
           popUp10.open(map, marker10);
         });
 
-        var label11 = "";
+        var label11 = "<a href='http://www.unifi.com' target='_blank'><p class='montserrat'>Unifi, Inc.</p></a>";
         var popUp11 = new google.maps.InfoWindow({
           content: label11
         });
         var marker11 = new google.maps.Marker({
-          position: ufo,
+          position: ufi,
           map: map
         });
         marker11.addListener('click', function(){
           popUp11.open(map, marker11);
         });
 
-        var label12 = "";
+        var label12 = "<a href='http://www.odfl.com' target='_blank'><p class='montserrat'>Old Dominion Freight Line, Inc.</p></a>";
         var popUp12 = new google.maps.InfoWindow({
           content: label12
         });
@@ -208,7 +208,7 @@ function initMap() {
           popUp12.open(map, marker12);
         });
 
-        var label13 = "";
+        var label13 = "<a href='http://www.cokeconsolidated.com' target='_blank'><p class='montserrat'>Coca-Cola Bottling Co. Consolidated</p></a>";
         var popUp13 = new google.maps.InfoWindow({
           content: label13
         });
@@ -220,7 +220,7 @@ function initMap() {
           popUp13.open(map, marker13);
         });
 
-        var label14 = "";
+        var label14 = "<a href='http://www.nucor.com' target='_blank'><p class='montserrat'>Nucor Corporation</p></a>";
         var popUp14 = new google.maps.InfoWindow({
           content: label14
         });
@@ -232,7 +232,7 @@ function initMap() {
           popUp14.open(map, marker14);
         });
 
-        var label15 = "";
+        var label15 = "<a href='http://www.biocryst.com' target='_blank'><p class='montserrat'>BioCryst Pharmaceuticals, Inc.</p></a>";
         var popUp15 = new google.maps.InfoWindow({
           content: label15
         });
@@ -244,7 +244,7 @@ function initMap() {
           popUp15.open(map, marker15);
         });
 
-        var label16 = "";
+        var label16 = "<a href='http://www.transenterix.com' target='_blank'><p class='montserrat'>TransEnterix, Inc.</p></a>";
         var popUp16 = new google.maps.InfoWindow({
           content: label16
         });
@@ -256,7 +256,7 @@ function initMap() {
           popUp16.open(map, marker16);
         });
 
-        var label17 = "";
+        var label17 = "<a href='http://www.highwoods.com' target='_blank'><p class='montserrat'>Highwoods Properties, Inc.</p></a>";
         var popUp17 = new google.maps.InfoWindow({
           content: label17
         });
@@ -268,7 +268,7 @@ function initMap() {
           popUp17.open(map, marker17);
         });
 
-        var label18 = "";
+        var label18 = "<a href='http://www.xerium.com' target='_blank'><p class='montserrat'>Xerium Technologies, Inc.</p></a>";
         var popUp18 = new google.maps.InfoWindow({
           content: label18
         });
@@ -276,11 +276,11 @@ function initMap() {
           position: xrm,
           map: map
         });
-        marker.addListener('click', function(){
-          popUp.open(map, marker);
+        marker18.addListener('click', function(){
+          popUp18.open(map, marker18);
         });
 
-        var label19 = "";
+        var label19 = "<a href='http://www.LocalFirstBank.com' target='_blank'><p class='montserrat'>First Bancorp</p></a>";
         var popUp19 = new google.maps.InfoWindow({
           content: label19
         });
@@ -292,7 +292,7 @@ function initMap() {
           popUp19.open(map, marker19);
         });
 
-        var label20 = "";
+        var label20 = "<a href='http://www.insteel.com' target='_blank'><p class='montserrat'>Insteel Industries, Inc.</p></a>";
         var popUp20 = new google.maps.InfoWindow({
           content: label20
         });
@@ -304,7 +304,7 @@ function initMap() {
           popUp20.open(map, marker20);
         });
 
-        var label21 = "";
+        var label21 = "<a href='http://www.bbt.com' target='_blank'><p class='montserrat'>BB&T Corporation</p></a>";
         var popUp21 = new google.maps.InfoWindow({
           content: label21
         });
@@ -316,7 +316,7 @@ function initMap() {
           popUp21.open(map, marker21);
         });
 
-        var label22 = "";
+        var label22 = "<a href='http://www.commscope.com' target='_blank'><p class='montserrat'>CommScope Holding Company, Inc.</p></a>";
         var popUp22 = new google.maps.InfoWindow({
           content: label22
         });
@@ -328,7 +328,7 @@ function initMap() {
           popUp22.open(map, marker22);
         });
 
-        var label23 = "";
+        var label23 = "<a href='http://www.sealedair.com' target='_blank'><p class='montserrat'>Sealed Air Corporation</p></a>";
         var popUp23 = new google.maps.InfoWindow({
           content: label23
         });
@@ -340,7 +340,7 @@ function initMap() {
           popUp23.open(map, marker23);
         });
 
-        var label24 = "";
+        var label24 = "<a href='http://www.curtisswright.com' target='_blank'><p class='montserrat'>Curtiss-Wright Corporation</p></a>";
         var popUp24 = new google.maps.InfoWindow({
           content: label24
         });
@@ -352,7 +352,7 @@ function initMap() {
           popUp24.open(map, marker24);
         });
 
-        var label25 = "";
+        var label25 = "<a href='http://www.fennecpharma.com' target='_blank'><p class='montserrat'>Fennec Pharmaceuticals Inc.</p></a>";
         var popUp25 = new google.maps.InfoWindow({
           content: label25
         });
@@ -364,7 +364,7 @@ function initMap() {
           popUp25.open(map, marker25);
         });
 
-        var label26 = "";
+        var label26 = "<a href='http://www.g1therapeutics.com' target='_blank'><p class='montserrat'>G1 Therapeutics, Inc.</p></a>";
         var popUp26 = new google.maps.InfoWindow({
           content: label26
         });
@@ -376,7 +376,7 @@ function initMap() {
           popUp26.open(map, marker26);
         });
 
-        var label27 = "";
+        var label27 = "<a href='http://www.cree.com' target='_blank'><p class='montserrat'>Cree, Inc.</p></a>";
         var popUp27 = new google.maps.InfoWindow({
           content: label27
         });
@@ -388,7 +388,7 @@ function initMap() {
           popUp27.open(map, marker27);
         });
 
-        var label28 = "";
+        var label28 = "<a href='http://www.extendedstayamerica.com' target='_blank'><p class='montserrat'>Extended Stay America, Inc. Paired Shares</p></a>";
         var popUp28 = new google.maps.InfoWindow({
           content: label28
         });
@@ -400,7 +400,7 @@ function initMap() {
           popUp28.open(map, marker28);
         });
 
-        var label29 = "";
+        var label29 = "<a href='http://www.aointl.com' target='_blank'><p class='montserrat'>Alliance One International, Inc.</p></a>";
         var popUp29 = new google.maps.InfoWindow({
           content: label29
         });
@@ -412,7 +412,7 @@ function initMap() {
           popUp29.open(map, marker29);
         });
 
-        var label30 = "";
+        var label30 = "<a href='http://www.plygem.com' target='_blank'><p class='montserrat'>Ply Gem Holdings, Inc</p></a>";
         var popUp30 = new google.maps.InfoWindow({
           content: label30
         });
@@ -424,7 +424,7 @@ function initMap() {
           popUp30.open(map, marker30);
         });
 
-        var label31 = "";
+        var label31 = "<a href='http://www.premierinc.com' target='_blank'><p class='montserrat'>Premier, Inc.</p></a>";
         var popUp31 = new google.maps.InfoWindow({
           content: label31
         });
@@ -436,7 +436,7 @@ function initMap() {
           popUp31.open(map, marker31);
         });
 
-        var label32= "";
+        var label32= "<a href='http://www.selectbank.com' target='_blank'><p class='montserrat'>Select Bancorp, Inc.</p></a>";
         var popUp32 = new google.maps.InfoWindow({
           content: label32
         });
@@ -448,7 +448,7 @@ function initMap() {
           popUp32.open(map, marker32);
         });
 
-        var label33 = "";
+        var label33 = "<a href='http://www.duke-energy.com' target='_blank'><p class='montserrat'>Duke Energy Corporation</p></a>";
         var popUp33 = new google.maps.InfoWindow({
           content: label33
         });
@@ -460,7 +460,7 @@ function initMap() {
           popUp33.open(map, marker33);
         });
 
-        var label34 = "";
+        var label34 = "<a href='http://www.spx.com' target='_blank'><p class='montserrat'>SPX Corporation</p></a>";
         var popUp34 = new google.maps.InfoWindow({
           content: label34
         });
@@ -472,7 +472,7 @@ function initMap() {
           popUp34.open(map, marker34);
         });
 
-        var label35 = "";
+        var label35 = "<a href='http://www.babcock.com' target='_blank'><p class='montserrat'>Babcock & Wilcox Enterprises, Inc.</p></a>";
         var popUp35 = new google.maps.InfoWindow({
           content: label35
         });
@@ -484,7 +484,7 @@ function initMap() {
           popUp35.open(map, marker35);
         });
 
-        var label36 = "";
+        var label36 = "<a href='http://www.redhat.com' target='_blank'><p class='montserrat'>Red Hat, Inc.</p></a>";
         var popUp36 = new google.maps.InfoWindow({
           content: label36
         });
@@ -496,7 +496,7 @@ function initMap() {
           popUp36.open(map, marker36);
         });
 
-        var label37 = "";
+        var label37 = "<a href='http://www.tangeroutlet.com' target='_blank'><p class='montserrat'>Tanger Factory Outlet Centers, Inc.</p></a>";
         var popUp37 = new google.maps.InfoWindow({
           content: label37
         });
@@ -508,7 +508,7 @@ function initMap() {
           popUp37.open(map, marker37);
         });
 
-        var label38 = "";
+        var label38 = "<a href='http://www.prahs.com' target='_blank'><p class='montserrat'>PRA Health Sciences, Inc.</p></a>";
         var popUp = new google.maps.InfoWindow({
           content: label38
         });
@@ -520,7 +520,7 @@ function initMap() {
           popUp38.open(map, marker38);
         });
 
-        var label39 = "";
+        var label39 = "<a href='http://www.liveoakbank.com' target='_blank'><p class='montserrat'>Live Oak Bancshares, Inc.</p></a>";
         var popUp39 = new google.maps.InfoWindow({
           content: label39
         });
@@ -532,7 +532,7 @@ function initMap() {
           popUp39.open(map, marker39);
         });
 
-        var label40 = "";
+        var label40 = "<a href='http://www.tcap.com' target='_blank'><p class='montserrat'>Triangle Capital Corporation</p></a>";
         var popUp40 = new google.maps.InfoWindow({
           content: label40
         });
@@ -544,7 +544,7 @@ function initMap() {
           popUp40.open(map, marker40);
         });
 
-        var label41 = "";
+        var label41 = "<a href='http://www.vtvtherapeutics.com' target='_blank'><p class='montserrat'>vTv Therapeutics Inc.</p></a>";
         var popUp41 = new google.maps.InfoWindow({
           content: label41
         });
@@ -556,7 +556,7 @@ function initMap() {
           popUp41.open(map, marker41);
         });
 
-        var label42 = "";
+        var label42 = "<a href='http://www.invtitle.com' target='_blank'><p class='montserrat'>Investors Title Company</p></a>";
         var popUp42 = new google.maps.InfoWindow({
           content: label42
         });
@@ -568,7 +568,7 @@ function initMap() {
           popUp42.open(map, marker42);
         });
 
-        var label43 = "";
+        var label43 = "<a href='http://www.bankofamerica.com' target='_blank'><p class='montserrat'>Bank of America Corporation</p></a>";
         var popUp43 = new google.maps.InfoWindow({
           content: label43
         });
@@ -580,7 +580,7 @@ function initMap() {
           popUp43.open(map, marker43);
         });
 
-        var label44 = "";
+        var label44 = "<a href='http://www.enproindustries.com' target='_blank'><p class='montserrat'>EnPro Industries, Inc.</p></a>";
         var popUp44 = new google.maps.InfoWindow({
           content: label44
         });
@@ -592,7 +592,7 @@ function initMap() {
           popUp44.open(map, marker44);
         });
 
-        var label45 = "";
+        var label45 = "<a href='http://www.lowes.com' target='_blank'><p class='montserrat'>Lowe's Companies, Inc.</p></a>";
         var popUp45 = new google.maps.InfoWindow({
           content: label45
         });
@@ -604,7 +604,7 @@ function initMap() {
           popUp45.open(map, marker45);
         });
 
-        var label46 = "";
+        var label46 = "<a href='http://www.spxflow.com' target='_blank'><p class='montserrat'>SPX FLOW, Inc.</p></a>";
         var popUp46 = new google.maps.InfoWindow({
           content: label46
         });
@@ -616,7 +616,7 @@ function initMap() {
           popUp46.open(map, marker46);
         });
 
-        var label47 = "";
+        var label47 = "<a href='http://www.albemarle.com' target='_blank'><p class='montserrat'>Albemarle Corporation</p></a>";
         var popUp47 = new google.maps.InfoWindow({
           content: label47
         });
@@ -628,7 +628,7 @@ function initMap() {
           popUp47.open(map, marker47);
         });
 
-        var label48 = "";
+        var label48 = "<a href='http://www.peoplesbanknc.com' target='_blank'><p class='montserrat'>Peoples Bancorp of North Carolina, Inc.</p></a>";
         var popUp48 = new google.maps.InfoWindow({
           content: label48
         });
@@ -640,7 +640,7 @@ function initMap() {
           popUp48.open(map, marker48);
         });
 
-        var label49 = "";
+        var label49 = "<a href='http://www.labcorp.com' target='_blank'><p class='montserrat'>Laboratory Corporation of America Holdings</p></a>";
         var popUp49 = new google.maps.InfoWindow({
           content: label49
         });
@@ -652,7 +652,7 @@ function initMap() {
           popUp49.open(map, marker49);
         });
 
-        var label50 = "";
+        var label50 = "<a href='http://www.culp.com' target='_blank'><p class='montserrat'>Culp, Inc.</p></a>";
         var popUp50 = new google.maps.InfoWindow({
           content: label50
         });

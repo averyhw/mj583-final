@@ -20,3 +20,8 @@ class Company(models.Model):
     # def save(self, *args, **kwargs):
     #     self.name = self.name.upper()
     #     super(Company, self).save(*args, **kwargs)
+    def to_json(self):
+        return{
+            "full_name": self.full_name,
+            "openning": self.openning,
+        }
