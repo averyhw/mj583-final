@@ -32,12 +32,13 @@
         cities for the open space. The citizens of North Carolina take pride in their home state economy and either
         work at or support their local businesses.</p>
       <div id="map"></div>
+      <!-- <div id="map2"></div> -->
     </div>
 
     <div class="row">
       <div class="col-12">
         <h3 class="montserrat">It's All In The Numbers</h3>
-        <p class="montserrat">Displayed below are the opening bids for each of the top companies in North Carolina as taken on April 11, 2018.
+        <p class="montserrat">Displayed below are the opening bids in dollars for each of the top companies in North Carolina as taken on April 11, 2018.
         Explore the data to see how the companies you support are performing.</p>
         <div id="fin-bar" class="chart"></div>
       </div>
@@ -55,17 +56,5 @@
       }
       window.onload = loadScript;
     </script>
-    <script>
-  //   $(function() {
-  //     {% for company in companies %}
-  //         var lat {{ company.id }} = new lat({{ company.lat }});
-  //         $('#matchCountdown_{{ match.id }}').countdown({until: match_date_{{ match.id }});
-  //     {% endfor %}
-  //     console.log(lat)
-  // });
 
-
-
-
-    </script>
 {% endblock %}

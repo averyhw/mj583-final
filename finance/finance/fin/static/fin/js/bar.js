@@ -73,9 +73,15 @@ function initBar(config) {
        // Create a group to hold our graph
        var graph = chart.append("g");
 
+       var div = d3.select("body").append("div")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
+
        // Create a group for our bars
        var bars = graph.append("g")
-           .classed("bars", true);
+           .classed("bars", true)
+           .attr('fill', '#7da1b7');
+           // https://stackoverflow.com/questions/35038534/d3-js-changing-the-color-of-the-bar-depending-on-the-value
 
        // Draw the bars
        bars.selectAll('rect.bar')
@@ -93,6 +99,7 @@ function initBar(config) {
             .attr('y', function(d) {
                 return winnerScale(d.openning);
             });
+
         // Create a Y axis on the left side from our winner scale
         // If the largest value is greater than 10 only draw 10 tick marks
         // but if the value is less than 10, e.g. 3, only draw 3 tick marks

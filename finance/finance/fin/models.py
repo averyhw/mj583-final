@@ -23,6 +23,9 @@ class Company(models.Model):
     def to_json(self):
         return{
             "full_name": self.full_name,
-            "openning": self.openning
+            "openning": self.openning,
+            "lat": self.lat,
+            "long": self.long,
+            "website": self.website
 
         }
