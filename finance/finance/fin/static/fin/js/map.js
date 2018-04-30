@@ -13,7 +13,6 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: uluru,
           map: map,
-
         });
         var cato = {lat:35.127344, lng:-80.880559};
         var vfc = {lat:36.122155, lng:-79.798901};

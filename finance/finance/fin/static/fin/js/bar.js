@@ -14,32 +14,28 @@ function initBar(config) {
     var chart = svg.append("g");
     // Configure our SVG element to be the full width and 200px tall
     svg.attr('width', '100%')
-        .attr('height', 200);
+        .attr('height', 450);
 
     // Get the width and height of the element containing our svg element
     var boundingRect = svgContainer.node().getBoundingClientRect();
 
-    // Hang on to the width and height values to use when generating the graph
-    //### line 18
     // Add margins so there is room to draw our axis
-    var margin = {'left': 40, 'right': 0, 'top': 10, 'bottom': 40};
+    var margin = {'left': 75, 'right': 0, 'top': 10, 'bottom': 237.5};
 
     // Hang on to the width and height values to use when generating the graph
     var width = boundingRect.width - (margin.left + margin.right);
     var height = boundingRect.height - (margin.top + margin.bottom);
 
-///### line 25
-
 // Position the chart with the margin accounted for
     // Position the chart with the margin accounted for
     chart.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-    var height = boundingRect.height;
+
 
     // Render re-renders the bar chart
     config.bar.render = function () {
         // Get the updated countries data sorted by the number of winners
         var companies = config.data.companies.sort(function(a, b) {
-            return d3.descending(a.full_name, b.openning);
+            return d3.descending(a.full_name, parseFloat(b.openning));
         });
 
 // Create lists of country names and the winner counts so we can generate
@@ -50,7 +46,9 @@ function initBar(config) {
        // https://github.com/d3/d3-scale#band-scales
        // https://github.com/d3/d3-scale#linear-scales
        var cnames = companies.map(function(x) {return x.full_name});
-       var winners = companies.map(function(x) {return x.openning});
+       var winners = companies.map(function(x) {return parseFloat(x.openning)});
+       console.log(winners);
+
 
        // Create our country name scale
        var nameScale = d3.scaleBand() // band scale
@@ -64,8 +62,7 @@ function initBar(config) {
        // Create our winner count scale
        var winnerScale = d3.scaleLinear() // linear scale
            .domain([0, maxWinner])        // of a domain
-           .range([height, 0])            // ranging from the height down to 0
-           .nice();                       // rounding to a nice even number
+           .range([height, 0]);          // ranging from the height down to 0
 
        // Get the width of the bands from the scale
        var bandwidth = nameScale.bandwidth();
@@ -80,7 +77,6 @@ function initBar(config) {
        var bars = graph.append("g")
            .classed("bars", true);
 
-           console.log(typeof winners[0])
        // Draw the bars
        bars.selectAll('rect.bar')
            .data(companies)
@@ -89,46 +85,36 @@ function initBar(config) {
            .classed('bar', true)
            .attr('width', bandwidth)
            .attr('height', function(d) {
-               return height - winnerScale(d.winners);
-           })
+                return parseFloat(d.openning);
+            })
            .attr('x', function(d) {
-                return nameScale(d.cnames);
-           })
-           .style('text-anchor', 'end')
-               .attr('dx', '-.8em')
-               .attr('dy', '.15em')
-           .selectAll("text")
-           .attr('transform', 'rotate(-65)')
-           .attr('y', function(d) {
-               return winnerScale(d.winners);
-           });
-
-           ///### Line 90 at the end and outside of the bar.selectAll function but inside the render function
-
-// Create a Y axis on the left side from our winner scale
+                return nameScale(d.full_name);
+            })
+            .attr('y', function(d) {
+                return winnerScale(d.openning);
+            });
+        // Create a Y axis on the left side from our winner scale
         // If the largest value is greater than 10 only draw 10 tick marks
         // but if the value is less than 10, e.g. 3, only draw 3 tick marks
         var xAxis = d3.axisBottom(nameScale)
             .tickSizeOuter(0);
+            // .orient("bottom");
+        graph.append("g")
+            .classed("x axis", true)
+            .call(xAxis)
+            .attr('transform', 'translate(0,' + height + ')')
+            .selectAll("text")
+            .attr('transform', 'rotate(-65)')
+            .style('text-anchor', 'end')
+            .attr('dx', '-.8em')
+            .attr('dy', '.15em');
         var yAxis = d3.axisLeft(winnerScale)
             .ticks(Math.min(10, maxWinner));
 
-            // Create an X axis on the bottom to show the country names
-        var xAxis = d3.axisBottom(nameScale)
-
-        ///so the function looks like this
-        graph.append("g")
-                    .classed("x axis", true)
-                    .call(xAxis)
-                    .attr('transform', 'translate(0,' + height + ')');
-
         graph.append("g")
             .classed("y axis", true)
-            .call(yAxis)
-            ///### add to the append(g) line 105
-            .attr('transform', 'translate(0,' + height + ')');
+            .call(yAxis);
+            // .attr('transform', 'translate(0,' + 'height' + ')');
 
-
-        // console.log(winners);
     }
   }

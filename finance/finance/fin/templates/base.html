@@ -30,7 +30,7 @@
             {% block header %}
                 <div class="row">
                     <div class="col-12 header-bar">
-                        <h1 class="display-4 montserrat">Stocking Up</h1>
+                        <a class="header-text" href="{% url 'companies_list' %}"><h1 class="display-4 montserrat">Stocking Up</h1></a>
                     </div>
                 </div>
             {% endblock %}
@@ -46,6 +46,15 @@
             {% endblock %}
             {% block content %}{% endblock %}
         </div>
+        <div class="container-fluid">
+            {% block footer %}
+                <div class="row">
+                    <div class="col-12 footer-bar">
+                        <a class="montserrat" href="https://finance.yahoo.com/" target="_blank"><p class="montserrat">Data scraped from Yahoo Finance</a></p>
+                    </div>
+                </div>
+            {% endblock %}
+          </div>
     {% endblock %}
     {% block script %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

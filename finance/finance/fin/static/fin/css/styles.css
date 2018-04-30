@@ -1,50 +1,82 @@
-/* STYLIZING INDIVIDUAL PAGES */
-#individual-company-page-header{
-  text-align: center;
-  margin:auto;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: black;
-}
-#individual-company-page-header:hover{
-  text-decoration: underline;
-  color: black;
-}
+/* GENERAL STYLING */
 .montserrat{
   font-family: 'Montserrat', sans-serif;
-}
-.header-image{
-  background-image: url("stock-floor.png");
-  padding: 40px;
-  background-blend-mode: lighten;
-}
-.general-data{
-  /* margin: auto; */
-}
-.back-to-list{
   color: black;
 }
-.back-to-list:hover{
+a{
+  color: black;
+}
+a:hover{
+  color: black;
   text-decoration: underline;
-  color: black;
 }
-.back-to-list:visited{
+a:visited{
   color: black;
 }
 
-/* STYLIZING MAIN LIST PAGE */
-.main-list{
-  margin: 10px;
-}
-.company-name-link{
-  color: black;
+/* STYLIZING INDIVIDUAL PAGES */
+#individual-company-page-header{
+  text-align: center;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
-}
-.company-name-link:hover{
-  text-decoration: underline;
   color: black;
+}
+.header-image{
+  background-image: url("stock-floor.png");
+  padding: 4%;
+  background-blend-mode: lighten;
+}
+.general-data{
+  margin-top: 5%;
+  text-decoration: none;
+}
+/* .general-data li{
+  text-decoration: none;
+} */
+
+/* MAP */
+#map {
+ width: 100%;
+ height: 400px;
+ background-color: grey;
+}
+.all-map{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* HOME PAGE */
+.entry-text{
+  margin-top: 5%;
+}
+.header-bar{
+  background-color: #ededed;
+  color: black;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.main-list{
+  padding: 3%;
+  border: 1px solid black;
+  line-height: 30pt;
+  margin: 0px;
+  /* text-align: center; */
+}
+.contenders{
+  margin-top: 5%;
+}
+.footer-bar{
+  background-color: #ededed;
+  color: black;
+  padding: 2%;
+  margin-top: 2%;
+  text-align: right;
+}
+.header-text:hover{
+  text-decoration: none;
 }
 .charlotte{
   background-image: url("charlotte2.png");
@@ -53,19 +85,12 @@
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
 }
-
-/* MAP */
-#map {
-       width: 100%;
-       height: 400px;
-       background-color: grey;
-     }
-
-/* HOME PAGE */
-.header-bar{
-  background-color: #ededed;
-  color: black;
-  padding: 20px;
-  margin-bottom: 20px;
+.company-name-link{
+  text-transform: uppercase;
+}
+.chart{
+  margin-top: 60px;
 }

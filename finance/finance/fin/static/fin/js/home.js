@@ -8,25 +8,7 @@ window.Company = {
 // var theRecord = pathArray[2];
 // console.log(theRecord);
 // fetchData
-function fetchData() {
 
-    // $.get("/api/" + theRecord)
-    $.get("/api/")
-
-        .done(function(config) {
-            // console.log(data);
-
-            $('#fin-bar').text(JSON.stringify(config, null, '  '));
-            // Add data to global container
-            window.Company.data = config;
-            // Re-render the bar chart
-            window.Company.bar.render();
-        })
-        .fail(function(){
-            console.log("Could not load data");
-            // alert("Could not load data");
-        });
-}
 
 // init wires up watchers on selections and fetches new data
 function init(){
@@ -38,7 +20,6 @@ function init(){
         var params = window.Company.params || {};
         params.name = nameSel.val();
         params.openning = openningSel.val();
-        // params.gender = genderSel.val();
         fetchData();
     }
 
@@ -50,6 +31,29 @@ function init(){
     // genderSel.on('change', updateSelections);
     updateSelections();
 }
+
+
+function fetchData() {
+
+    // $.get("/api/" + theRecord)
+    $.get("/api/")
+
+        .done(function(config) {
+            // console.log(data);
+
+            // $('#fin-bar').text(JSON.stringify(config, null, '  '));
+            // Add data to global container
+            window.Company.data = config;
+            // Re-render the bar chart
+            window.Company.bar.render();
+        })
+        .fail(function(){
+            console.log("Could not load data");
+            // alert("Could not load data");
+        });
+}
+
+
 
 // Call init on DOMReady
 $(init);

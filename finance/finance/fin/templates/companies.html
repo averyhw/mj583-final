@@ -1,26 +1,47 @@
 {% extends "base.html" %}
 {% load static %}
-<!-- {% load staticfiles %} -->
 {% block content %}
 
     <h2 class="montserrat charlotte">Top Companies in North Carolina</h2>
 
+    <p class="montserrat entry-text">This data was scraped from Yahoo Finance so you could explore the data avilable for the top
+      comanies in North Carolina. The North Carolina economy houses many large companies as well as small businesses,
+      all contributing to the overall success of NC. Many companies have placed their headquarters in the larger
+      cities, such as Charlotte, but many take advatge of the open space, such as the space found in Youngsville.
+      Either way, these companies make up North Carolina and their stock data is a representation of their success and
+      growth. Take a look around this site, through the homepage and the indivdual company pages to gain more insight
+      and don't forget to invest local!</p>
 
+    <h3 class="montserrat contenders">The Contenders</h3>
+    <p class="montserrat">A wide array of companies exist in the North Carolina markets, ranging from technology to
+      hardware to clothing. Look through some of the data of the companies below to learn more about the stock market
+      in the Tar Heel state.</p>
+    <div class="main-list">
       {% for company in companies %}
       {# Each "company" is a company model object. #}
         <a class="montserrat company-name-link" href="company/{{  company.id  }}">  {{ company }}  </a>|
 
       {% endfor %}
+    </div>
 
-      <h3>My Google Maps Demo</h3>
+    <div class="all-map">
+      <h3 class="montserrat">Location, Location, Location</h3>
+      <p class="montserrat">North Carolina is home to some large businesses in the US, including Lowe's,
+        Coca-Cola Bottling Co. Consolidated and Speedway Motorsports, Inc. Many of the businesses are clustered in the
+        larger cities of Charlotte, Raleigh and Greensboro, but many also are headquartered in smaller neighboring
+        cities for the open space. The citizens of North Carolina take pride in their home state economy and either
+        work at or support their local businesses.</p>
       <div id="map"></div>
+    </div>
 
-      <div class="row">
-        <div class="col-12">
-          <h1>Bar Chart</h1>
-          <div id="fin-bar"></div>
-        </div>
+    <div class="row">
+      <div class="col-12">
+        <h3 class="montserrat">It's All In The Numbers</h3>
+        <p class="montserrat">Displayed below are the opening bids for each of the top companies in North Carolina as taken on April 11, 2018.
+        Explore the data to see how the companies you support are performing.</p>
+        <div id="fin-bar" class="chart"></div>
       </div>
+    </div>
 
 
     <script src="js/creds.js"></script>
