@@ -5,7 +5,9 @@
 <div class="header-image">
   <!-- <a class="back-to-list montserrat" href="{% url 'companies_list' %}">back to list</a> -->
   <div class="row">
-    <a id="individual-company-page-header" href="{{ company.website }}" target="_blank"><h2>{{ company.full_name }} ({{ company }})</h2></a>
+    <a id="individual-company-page-header" href="{{ company.website }}" target="_blank"><h2>{{ company.full_name }} ({{ company }})</h2>
+    <br/><p class="montserrat location-text">{{ company.location }}</p></a>
+
   </div>
 </div>
   <div class="row">
@@ -17,9 +19,6 @@
         <li class="montserrat">PE Ratio: {{ company.pe_ratio }}</li>
         <li class="montserrat">EPS: {{ company.eps }}</li>
         <li class="montserrat">1 Year Target: {{ company.one_year }}</li>
-        <li class="montserrat">Location: {{ company.location }}</li>
-        <li class="montserrat">Lat: {{ company.lat }}</li>
-        <li class="montserrat">Long: {{ company.long }}</li>
     </ul>
     <script>
     console.log(typeof {{ company.openning }})

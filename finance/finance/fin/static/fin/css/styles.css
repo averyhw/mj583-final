@@ -24,17 +24,15 @@ a:visited{
   color: black;
 }
 .header-image{
-  background-image: url("stock-floor.png");
+  /* background-image: url("stock-floor.png"); */
   padding: 4%;
   background-blend-mode: lighten;
+  border: 1px solid black;
 }
 .general-data{
   margin-top: 5%;
   text-decoration: none;
 }
-/* .general-data li{
-  text-decoration: none;
-} */
 
 /* MAP */
 #map {

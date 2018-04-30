@@ -34,9 +34,9 @@ function initMap() {
           position: {lat: parseFloat(finalData[i]["lat"]), lng: parseFloat(finalData[i]["long"])},
           map: map
         });
-        marker.addListener('click', function(){
-          popUp.open(map, marker);
-    });
+    //     marker.addListener('click', function(){
+    //       popUp.open(map, marker);
+    // });
 
 
   }
